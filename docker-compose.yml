@@ -1,0 +1,12 @@
+version: '2'
+services:
+ web:
+   build:
+     context: .
+   container_name: proxyall
+   ports:
+     - "8888:9009"
+   volumes:
+     - ./:/usr/src/app
+     - ./entrypoint.sh:/usr/bin/entrypoint
+   restart: always
