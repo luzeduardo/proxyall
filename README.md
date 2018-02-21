@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/luzeduardo/proxyall/badge.svg?targetFile=package.json)](https://snyk.io/test/github/luzeduardo/proxyall?targetFile=package.json)
+
 # ProxyAll
 
 ## Como executar localmente
